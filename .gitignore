@@ -26,7 +26,7 @@ assets
 src/pages/Admin/*
 # src/pages/About.jsx
 # src/pages/BuyCar.jsx
-src/pages/BuyCarDetails.jsx
+# src/pages/BuyCarDetails.jsx
 src/pages/CarRent.jsx
 # src/pages/ChangePassword.jsx
 # src/pages/ForgetPassword.jsx
