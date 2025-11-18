@@ -23,21 +23,10 @@ yarn-debug.log*
 yarn-error.log*
 
 assets
-src/pages/Admin/*
-# src/pages/About.jsx
-# src/pages/BuyCar.jsx
-# src/pages/BuyCarDetails.jsx
-# src/pages/CarRent.jsx
-# src/pages/ChangePassword.jsx
-# src/pages/ForgetPassword.jsx
-# src/pages/Home.jsx
-# src/pages/Login.jsx
-# src/pages/NotFound.jsx
-# src/pages/Profile.jsx
-# src/pages/RentCar.jsx
-# src/pages/RentCarDetails.jsx
-# src/pages/Review.jsx
-# src/pages/SellCar.jsx
+# src/pages/Admin/RentCar.jsx
+src/pages/Admin/Review.jsx
+src/pages/Admin/SellCar.jsx
+src/pages/Admin/User.jsx 
 
 
 store 
