@@ -29,15 +29,14 @@ const checkout = async (amount) => {
     },
 });
   const options = {
-    key: key, // Enter the Key ID generated from the Dashboard
-    amount: order.amount, // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise
+    key: key,
+    amount: order.amount, 
     currency: "INR",
     name: "Car Sell Rent Application",
     description: "Transaction",
     image: "https://example.com/your_logo",
-    order_id: order.id, //This is a sample Order ID. Pass the `id` obtained in the response of Step 1
+    order_id: order.id,
     callback_url: `${process.env.REACT_APP_API_URL}/payment/paymentverification`,
-    // callback_url: "https://eneqd3r9zrjok.x.pipedream.net/",
     prefill: {
       name: "xyz",
       email: "vatsal@example.com",
@@ -48,7 +47,6 @@ const checkout = async (amount) => {
     },
     theme: {
       color: "#121212",
-      // color: "#3399cc",
     },
   };
   console.log(options);

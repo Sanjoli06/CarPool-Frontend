@@ -1,5 +1,4 @@
 
-// React-Car-Rental-Website-master
 import { Container, Row, Col } from "reactstrap";
 import React, { Fragment } from "react";
 import Header from "../components/Header/Header";
@@ -34,7 +33,7 @@ class BuyCar extends React.Component {
   };
 
   render() {
-    let sortedCarData = this.state.carData.slice(); // Make a copy of the array
+    let sortedCarData = this.state.carData.slice(); 
     if (this.state.sortBy === "low") {
       sortedCarData.sort((a, b) => a.price - b.price);
     } else if (this.state.sortBy === "high") {

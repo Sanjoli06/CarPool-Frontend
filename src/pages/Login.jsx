@@ -86,7 +86,6 @@ class LoginComponent extends React.Component {
     }
 
     PostData = async () => {
-        // e.preventDefault();
         try {
             if (this.state.mode === 'login') {
                 const newUser = this.state;
@@ -117,7 +116,6 @@ class LoginComponent extends React.Component {
             const newState = { ...this.state };
             newState[name] = value;
             this.setState(newState);
-            // console.log(newState);
         }
     };
 

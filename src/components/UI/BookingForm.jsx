@@ -9,9 +9,6 @@ const BookingForm = (props) => {
   const [email,setemail] = useState("Email@abc.com");
   const [phoneno,setphoneno] = useState("9999999999");
   const [description,setdescription] = useState("Inquire To Owner");
-  // const [to,setto] = useState("Inquire To Owner");
-  // const [subject,setsubject] = useState();
-  // const [carName,setcarName] = useState();
 
   const submitHandler = (e) => {
     e.preventDefault();

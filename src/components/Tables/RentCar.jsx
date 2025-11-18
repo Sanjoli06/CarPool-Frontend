@@ -10,7 +10,6 @@ import CRUDTable,
   DeleteForm,
 } from 'react-crud-table';
 
-// Component's Base CSS
 import "../../styles/user.css";
 
 const DescriptionRenderer = ({ field }) => <textarea {...field} />;

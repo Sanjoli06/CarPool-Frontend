@@ -35,7 +35,7 @@ class CarRent extends React.Component {
   };
 
   render(){
-    let sortedCarData = this.state.carData.slice(); // Make a copy of the array
+    let sortedCarData = this.state.carData.slice();
     if (this.state.sortBy === "low") {
       sortedCarData.sort((a, b) => a.price - b.price);
     } else if (this.state.sortBy === "high") {
