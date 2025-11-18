@@ -24,7 +24,7 @@ yarn-error.log*
 
 assets
 # src/pages/Admin/RentCar.jsx
-src/pages/Admin/Review.jsx
+# src/pages/Admin/Review.jsx
 src/pages/Admin/SellCar.jsx
 src/pages/Admin/User.jsx 
 
