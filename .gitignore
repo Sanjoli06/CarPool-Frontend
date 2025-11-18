@@ -29,7 +29,7 @@ src/pages/BuyCar.jsx
 src/pages/BuyCarDetails.jsx
 src/pages/CarRent.jsx
 src/pages/ChangePassword.jsx
-src/pages/ForgetPassword.jsx
+# src/pages/ForgetPassword.jsx
 src/pages/Home.jsx
 # src/pages/Login.jsx
 src/pages/NotFound.jsx
