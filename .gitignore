@@ -36,7 +36,7 @@ src/pages/NotFound.jsx
 src/pages/Profile.jsx
 # src/pages/RentCar.jsx
 # src/pages/RentCarDetails.jsx
-src/pages/Review.jsx
+# src/pages/Review.jsx
 src/pages/SellCar.jsx
 
 
