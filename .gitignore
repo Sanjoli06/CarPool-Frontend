@@ -32,7 +32,7 @@ src/pages/Admin/*
 # src/pages/ForgetPassword.jsx
 # src/pages/Home.jsx
 # src/pages/Login.jsx
-src/pages/NotFound.jsx
+# src/pages/NotFound.jsx
 # src/pages/Profile.jsx
 # src/pages/RentCar.jsx
 # src/pages/RentCarDetails.jsx
